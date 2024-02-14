@@ -22,7 +22,7 @@ bot.on("message", (msg) => {
     const messageText = msg.text;
 
     if (messageText === '/start') {
-        bot.sendMessage(chatId, 'Welcome to the bot!\n Press\n 1 : who develope this bot\n 2 : GF name\n 3 : My insta id');
+        bot.sendMessage(chatId, 'Welcome to the bot!\n Press\n 1 : who develope this bot\n 2 : Address \n 3 : My insta id');
     }
     if (messageText === 'Hi') {
         bot.sendMessage(chatId, 'Welcome to the bot!');
@@ -32,7 +32,7 @@ bot.on("message", (msg) => {
         bot.sendMessage(chatId, 'Developer : Nitin Kumar');
     }
     if (messageText === "2") {
-        bot.sendMessage(chatId, 'GF name : Ham pe toh hai no 😜');
+        bot.sendMessage(chatId, 'Address : Uttra Pradesh 😜');
     }
     if (messageText === "3") {
         bot.sendMessage(chatId, 'insta id : nittiin.kumar');
